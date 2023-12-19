@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package HatServer;
+
+option go_package = "./";
+
+message Empty {}
+
+message ColorAnimal {
+  string Animal = 1;
+  string Color = 2;
+}
+
+service Hat {
+  rpc GetAnimal (Empty) returns (ColorAnimal);
+}
