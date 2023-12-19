@@ -9,7 +9,7 @@ import (
 //	pb "path/to/your/compiled/proto" // Замените на фактический путь к вашему скомпилированному proto-файлу
 //	pb "animal" // Замените на путь к вашему файлу protobuf
 
-	pb "github.com/AndreyMust/Illusis/app_go/animals/animal"
+	pb "github.com/AndreyMust/Illusis/animal"
 )
 
 //type colorServer struct{
