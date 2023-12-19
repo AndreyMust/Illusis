@@ -7,7 +7,9 @@ import (
 	"fmt"
 	"google.golang.org/grpc"
 //	pb "path/to/your/compiled/proto" // Замените на фактический путь к вашему скомпилированному proto-файлу
-	pb "animal" // Замените на путь к вашему файлу protobuf
+//	pb "animal" // Замените на путь к вашему файлу protobuf
+
+	pb "github.com/AndreyMust/Illusis/app_go/animals/animal"
 )
 
 //type colorServer struct{
