@@ -4,7 +4,7 @@
 // - protoc             v4.25.1
 // source: animal.proto
 
-package __
+package animal
 
 import (
 	context "context"
